@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/photo"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/photo1"
+                android:viewName="photo_hero" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            style="@style/PaddingLinearLayout">
+
+            <TextView
+                android:id="@+id/name"
+                android:textColor="@color/detail_text_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Harper Jonni noxville"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="34sp"
+                android:layout_gravity="center"/>
+            
+            <TextView
+                android:id="@+id/mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/detail_text_color"
+                android:layout_marginTop="14dp"
+                android:textSize="23sp"
+                android:fontFamily="sans-serif-light"
+                tools:text="myawesomemail@mail.com"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="40dp"
+                android:weightSum="4">
+
+                <TextView
+                    android:id="@+id/nickname_title"
+                    android:layout_width="0dp"
+                    android:textColor="@color/detail_text_color"
+                    android:layout_height="wrap_content"
+                    android:text="Nickname"
+                    android:textSize="24sp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_weight="1.5"/>
+
+                <TextView
+                    android:id="@+id/nickname"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="My awseome nickname"
+                    android:textColor="@color/detail_text_color"
+                    android:textSize="22sp"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_weight="3"/>
+           </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:weightSum="4">
+
+                <TextView
+                    android:id="@+id/phone_title"
+                    android:layout_width="0dp"
+                    android:textColor="@color/detail_text_color"
+                    android:layout_height="wrap_content"
+                    android:text="Phone"
+                    android:textSize="24sp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_weight="1.5"/>
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="22sp"
+                    android:text="My awseome nickname"
+                    android:textColor="@color/detail_text_color"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_weight="3"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="40dp">
+
+                <TextView
+                    android:id="@+id/biography_title"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/detail_text_color"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:text="Biography"
+                    android:fontFamily="sans-serif-condensed"/>
+
+                <TextView
+                    android:id="@+id/biografy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:lineSpacingExtra="10dp"
+                    android:text="@string/lorem"
+                    android:textSize="22sp"
+                    android:textColor="@color/detail_text_color"
+                    android:maxLines="20"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_weight="3"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lollipop…</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ante turpis, malesuada ac suscipit a, vehicula eget velit. Proin id interdum turpis, quis placerat nisi. Aliquam dictum blandit metus, eget porta risus fermentum at. Aliquam euismod mi non nulla vehicula, aliquam ullamcorper arcu mattis. Fusce semper laoreet placerat. Suspendisse ut mi tempus, consectetur purus a, sagittis felis. Fusce aliquam libero eget justo congue iaculis. In tempus sapien diam, non condimentum ligula consectetur et. Sed ac lacus libero.</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="200dp"
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:id="@+id/user_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/photo1"/>
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#fff"
+        android:textSize="28sp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="bottom|left"
+        android:paddingLeft="15dp"
+        android:paddingBottom="8dp"
+        android:background="@drawable/contact_ripple"
+        android:clickable="true"/>
+</FrameLayout>

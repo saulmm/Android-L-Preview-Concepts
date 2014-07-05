@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#ff72fdff</color>
+    <color name="image_tint">#7f101010</color>
+    <color name="detail_text_color">#FFF</color>
+
+</resources>
