@@ -15,11 +15,10 @@
             android:layout_height="wrap_content">
 
             <ImageView
-                android:id="@+id/photo"
+                android:id="@+id/detail_iv_user_photo"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/photo1"
                 android:viewName="photo_hero" />
         </FrameLayout>
 
@@ -30,17 +29,17 @@
             style="@style/PaddingLinearLayout">
 
             <TextView
-                android:id="@+id/name"
+                android:id="@+id/detail_tv_name"
                 android:textColor="@color/detail_text_color"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                tools:text="Harper Jonni noxville"
                 android:fontFamily="sans-serif-condensed"
                 android:textSize="34sp"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                tools:text="Harper Jonny Noxville"/>
             
             <TextView
-                android:id="@+id/mail"
+                android:id="@+id/detail_tv_mail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/detail_text_color"
@@ -57,11 +56,11 @@
                 android:weightSum="4">
 
                 <TextView
-                    android:id="@+id/nickname_title"
+                    android:id="@+id/detail_tv_nickname_title"
                     android:layout_width="0dp"
                     android:textColor="@color/detail_text_color"
                     android:layout_height="wrap_content"
-                    android:text="Nickname"
+                    android:text="@string/detail_nickname_title"
                     android:textSize="24sp"
                     android:fontFamily="sans-serif-condensed"
                     android:layout_weight="1.5"/>
@@ -70,11 +69,11 @@
                     android:id="@+id/nickname"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="My awseome nickname"
                     android:textColor="@color/detail_text_color"
                     android:textSize="22sp"
                     android:fontFamily="sans-serif-light"
-                    android:layout_weight="3"/>
+                    android:layout_weight="3"
+                    tools:text="My awseome nickname"/>
            </LinearLayout>
 
             <LinearLayout
@@ -85,24 +84,24 @@
                 android:weightSum="4">
 
                 <TextView
-                    android:id="@+id/phone_title"
+                    android:id="@+id/detail_tv_phone_title"
                     android:layout_width="0dp"
                     android:textColor="@color/detail_text_color"
                     android:layout_height="wrap_content"
-                    android:text="Phone"
+                    android:text="@string/detail_phone_title"
                     android:textSize="24sp"
                     android:fontFamily="sans-serif-condensed"
                     android:layout_weight="1.5"/>
 
                 <TextView
-                    android:id="@+id/phone"
+                    android:id="@+id/detail_tv_phone"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:textSize="22sp"
-                    android:text="My awseome nickname"
                     android:textColor="@color/detail_text_color"
                     android:fontFamily="sans-serif-light"
-                    android:layout_weight="3"/>
+                    android:layout_weight="3"
+                    tools:text="My aweseome nickname"/>
             </LinearLayout>
 
             <LinearLayout
@@ -112,16 +111,16 @@
                 android:layout_marginTop="40dp">
 
                 <TextView
-                    android:id="@+id/biography_title"
+                    android:id="@+id/android_tv_biography_title"
                     android:layout_width="match_parent"
                     android:textColor="@color/detail_text_color"
                     android:layout_height="wrap_content"
                     android:textSize="24sp"
-                    android:text="Biography"
+                    android:text="@string/detail_biography_title"
                     android:fontFamily="sans-serif-condensed"/>
 
                 <TextView
-                    android:id="@+id/biografy"
+                    android:id="@+id/detail_tv_biography"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"

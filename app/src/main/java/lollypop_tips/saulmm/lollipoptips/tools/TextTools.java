@@ -12,11 +12,17 @@ import java.io.UnsupportedEncodingException;
 import java.io.Writer;
 
 /**
- * Created by wtf on 05/07/14.
+ * Class created to manage different textTools
  */
 public class TextTools {
 
-    public static String getJSONString (int resourceReference, Context context) {
+    /**
+     * Gets a string with the content of a file
+     * @param resourceReference, the resource to give the content
+     * @param context, the context of the resources
+     * @return the content of the file as a string
+     */
+    public static String getFileContent(int resourceReference, Context context) {
         InputStream is = context.getResources().openRawResource(resourceReference);
         Writer writer = new StringWriter();
         char[] buffer = new char[1024];
