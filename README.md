@@ -10,12 +10,12 @@ This project is focused on the sample using the API's new preview version of And
 
 ### UI
 
-This app is focused to use the new Material Design released at the Google I/0 14, to use the `Material` theme on your app, you only 
+This app is aimed to use the new Material Design released at the Google I/0 14, to use the `Material` theme on your app, you only 
 have to set the parent of your app style to `@android:style/Theme.Material` or `@android:style/Theme.Material.Light` and `@android:style/Theme.Material.DarkActionBar`.
 
 #### Customize the Color Palette of your app
 
-In the `theme.xml` the `MainActivity` them looks like:
+In the `theme.xml` of the `MainActivity`:
 
 ```xml
     <!-- App colors -->
@@ -96,7 +96,7 @@ Android-L introduces a new way to manage view with elevation and shadows, _"Outl
 
 ### Activity transitions
 
-Now, with Android-L you can specify custom animations for enter and exit transtioins and for transition of shared elemenets between activities, to do that, first, you have to enable the window content transitions, in my case, at `themes.xml`
+Now, with Android-L you can specify custom animations for enter and exit transitions, and for transition of shared elements between activities, to do that, first, you have to enable the window content transitions, in my case, at `themes.xml` you can set this values from java code as well.
 
 
 ```xml
